@@ -1,4 +1,4 @@
-export const FONT_FAMILIES = [
+export let FONT_FAMILIES = [
   {
     key: 'MODERN_SANS',
     label: 'Modern sans',
@@ -48,7 +48,7 @@ export const FONT_FAMILIES = [
   },
 ];
 
-export const FONT_FAMILY_NAMES = [
+export let FONT_FAMILY_NAMES = [
   'MODERN_SANS',
   'BOOK_SANS',
   'ORGANIC_SANS',
@@ -58,4 +58,4 @@ export const FONT_FAMILY_NAMES = [
   'MODERN_SERIF',
   'BOOK_SERIF',
   'MONOSPACE',
-] as const;
+] as let;
