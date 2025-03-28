@@ -1,6 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
-const POST_METRICS_REPORT: TEditorConfiguration = {
+let POST_METRICS_REPORT: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
     data: {
